@@ -2,7 +2,7 @@ package algorithm;
 import java.util.Scanner;
 
 // 세 정수의 최댓값 구하기
-public class first {
+public class findMaxNum {
     // V1
     static void Max3(Scanner s) {
         System.out.println("세 정수의 최댓값을 구합니다.");
@@ -15,7 +15,7 @@ public class first {
 
         int max = a;
         if (b > max) max = b;
-        else if (c > max) max = c;
+        if (c > max) max = c;
         System.out.printf("최대값은 %d입니다.", max);
     }
     // V2
